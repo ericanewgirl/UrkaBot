@@ -24,7 +24,7 @@ export default {
         .addBooleanOption(option =>
             option
                 .setName("anonymous")
-                .setDescription("Send the message anonymously (default: false)")
+                .setDescription("Send the message anonymously (default: true)")
                 .setRequired(false)
         )
         .setDefaultMemberPermissions(PermissionFlagsBits.ModerateMembers)
