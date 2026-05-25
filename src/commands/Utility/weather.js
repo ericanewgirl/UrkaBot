@@ -4,7 +4,7 @@ import { logger } from '../../utils/logger.js';
 import { handleInteractionError } from '../../utils/errorHandler.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 const GEOCODING_URL = "https://geocoding-api.open-meteo.com/v1/search";
-const WEATHER_URL = "https://api.open-meteo.com/v1/forecast";
+const WEATHER_URL = "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m,precipitation_probability,precipitation&models=gfs_seamless&wind_speed_unit=mph&precipitation_unit=inch&temperature_unit=fahrenheit&forecast_hours=24";
 
 export default {
     data: new SlashCommandBuilder()
