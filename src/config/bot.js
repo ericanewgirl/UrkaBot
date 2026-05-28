@@ -365,9 +365,9 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: <#678142346394861572>,
+    defaultWelcomeChannel: {<#678142346394861572>},
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: <#832455937511260211>,
+    defaultGoodbyeChannel: {<#832455937511260211>},
   },
 
   // =========================
